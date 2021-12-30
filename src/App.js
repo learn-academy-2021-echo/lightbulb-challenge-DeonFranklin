@@ -1,13 +1,25 @@
-import React, { Component } from 'react'
-import './App.css'
+import {Component} from 'react'
+import Header from './Header'
+import Light from './Light'
+import css from './App.css'
 
-class App extends Component{
-  render(){
-    return(
+/* 
+- set up react server (/)
+- create header (/)
+- create interactive square that toggles on and off(/)
+-- got the on/off to toggle in box with no text()
+- when "off" the background is white (/)
+- when "on" the background is yellow (/)
+*/
+
+class App extends Component {
+  render() {
+    return (
       <>
-        <h1>Hello World!</h1>
+      <Header />
+      <Light />
       </>
     )
   }
 }
-export default App
+export default App;
