@@ -3,7 +3,6 @@ import Header from './components/Header'
 import Light from './components/Light'
 import Footer from './components/Footer'
 import './App.css'
-
 /* 
 - set up react server (/)
 - create header (/)
