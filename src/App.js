@@ -1,8 +1,8 @@
 import {Component} from 'react'
-import Header from './Header'
-import Light from './Light'
-import css from './App.css'
-
+import Header from './components/Header'
+import Light from './components/Light'
+import Footer from './components/Footer'
+import './App.css'
 /* 
 - set up react server (/)
 - create header (/)
@@ -18,6 +18,7 @@ class App extends Component {
       <>
       <Header />
       <Light />
+      <Footer />
       </>
     )
   }
