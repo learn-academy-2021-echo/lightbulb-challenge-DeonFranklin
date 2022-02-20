@@ -5,7 +5,9 @@ class Header extends Component {
         return (
             <div>
                 {/* //changed the header */}
-            <h1 id="header"> Welcome to Deon's light switcher. </h1>
+            <h1 id="header"> Welcome 
+            <br></br>to the 
+            <br></br>light switcher. </h1>
             </div>
         )
     }

@@ -28,6 +28,8 @@ class AddSubtract extends Component {
       <>
         <div>
           <button onClick={this.AddBoxes}>Add Lights</button>
+          <br></br>
+          <br></br>
           <button onClick={this.SubtractBoxes}>Remove Lights</button>
           <div>{this.state.lightArray}</div>
         </div>

@@ -1,24 +1,27 @@
 *{
-  background: linear-gradient(to bottom, black, blue);
+  background-color: rgb(132, 132, 243);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: white
+  color: white;
+  font-family: roboto mono, monospace;
 }
 #header {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  position: relative;
 }
 body {
-  align-items: center;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  height:100vh;  
   margin: auto;
   text-align: center;
   padding: 100px;
 }
 #footer {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  position: relative;
 }
-button{
-  background-color: black;
+button:hover {
+  background-color: transparent;
+  border-radius: 2px;
 }
